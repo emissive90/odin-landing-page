@@ -80,6 +80,7 @@ button {
     background-color: #3882f6;
 }
 
+.action-section,
 .random-section {
     display: flex;
     flex-direction: column;
@@ -91,14 +92,16 @@ button {
     font-weight: bolder;
     color: #1F2937;
     align-self: center;
-    margin: 48px;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .random-box {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0 400px;
+    padding: 60px;
 }
 
 .random-box 
@@ -114,7 +117,10 @@ img {
     flex-direction: column;
     align-items: center;
     width: 120px;
+    margin: 10px;
     flex-wrap: wrap;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .quote-section{
@@ -124,8 +130,8 @@ img {
     justify-content: center;
     align-items: center;
     width: auto;
-    margin: 200px 0;
-    padding: 200px 610px;
+    margin: 24px;
+    padding: 100px 610px;
 }
 
 .quote {
@@ -140,4 +146,58 @@ img {
     font-size: 24px;
     font-weight: bold;
     margin-top: 24px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 200px;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+
+
+.call {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+.subtext {
+    color: #fff;
+    font-weight: lighter;
+
+}
+
+.blue-box
+button {
+    background-color: #3882f6;
+    color: #fff;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 30px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    background-color: #1F2937;
+    align-self: flex-end;
+    align-items: center;
 }
